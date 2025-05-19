@@ -24,4 +24,6 @@ hide:
     }
 </style>
 
-# Welcome back! Every step forward counts — dig deep and try harder.
+# Welcome back!
+
+Every step forward counts — dig deep and try harder.
