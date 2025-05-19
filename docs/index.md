@@ -6,15 +6,16 @@ hide:
 ---
 
 <style>
+
     body {
-      background-image: url('images/bg.jpg');
+      background-image: url('../images/bg.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      background-attachment: fixed; /* Optional: keeps background fixed when scrolling */
+      background-attachment: fixed;
       font-family: Arial, sans-serif;
     }
-
+  
     h1 {
       position: absolute;
       top: 50%;
@@ -24,6 +25,6 @@ hide:
     }
 </style>
 
-# Welcome back!
+# Welcome back !!!
 
 Every step forward counts — dig deep and try harder.

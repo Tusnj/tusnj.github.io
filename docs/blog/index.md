@@ -1,7 +1,4 @@
----
-hide:
-  - toc        # Hide table of contents
----
+# Blog
 
 <style>
   body {

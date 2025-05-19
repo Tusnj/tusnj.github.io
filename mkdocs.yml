@@ -1,4 +1,4 @@
-site_name: LeeCyberSec
+site_name: LeeCyberSec - Security Documentation
 site_url: https://tusnj.github.io
 site_description: Security Documentation with MkDocs.
 site_author: Tusnj
@@ -10,9 +10,7 @@ nav:
   - 'Network Pentest':
     - 'Table of contents': 'network-pentest/index.md'
     
-    - 'Reconnaissance':
-      - 'Info Gathering': 'network-pentest/reconnaissance/infor-gathering.md'
-      - 'Active Scanning': 'network-pentest/reconnaissance/active-scanning.md'    
+    - 'Scanning': 'network-pentest/scanning/index.md'
 
     - 'Common Services':
       - 'general': 'network-pentest/common-services/00000-general.md'
@@ -32,16 +30,16 @@ nav:
       - '27017 mongodb': 'network-pentest/common-services/27017-mongodb.md'
 
     - 'Remote Exploitation':
-      - 'Unix&Linux': 'network-pentest/remote-exploitation/Unix&Linux.md'
-      - 'Windows': 'network-pentest/remote-exploitation/windows.md'
+      - 'RCE Lin': 'network-pentest/remote-exploitation/Unix&Linux.md'
+      - 'RCE Win': 'network-pentest/remote-exploitation/windows.md'
 
     - 'File Transfer': 'network-pentest/file-transfer/index.md'
     - 'Password Attack': 'network-pentest/password-attack/index.md'
     - 'Redirec & Tunnel': 'network-pentest/port-redirection-tunneling/index.md'
 
     - 'Privilege Escalation':
-      - 'Unix&Linux': 'network-pentest/privilege-escalation/Unix&Linux.md'
-      - 'Windows': 'network-pentest/privilege-escalation/Windows.md'
+      - 'Lin PrivEscal': 'network-pentest/privilege-escalation/Unix&Linux.md'
+      - 'Win PrivEscal': 'network-pentest/privilege-escalation/Windows.md'
 
   - 'Web Application':
     - 'Table of contents': 'web-application/index.md'
@@ -49,61 +47,70 @@ nav:
     - 'Enumeration': 'web-application/enumeration.md'
     - 'Exploitation': 'web-application/exploitation.md'
 
-  - 'Red Teaming':
-    - 'Table of contents': 'red-teaming/index.md'
+  # - 'Red Teaming':
+  #   - 'Table of contents': 'red-teaming/index.md'
+  #   - 'Info Gathering': 'network-pentest/reconnaissance/infor-gathering.md'
 
-    - 'Unix Basics':
-      - 'Commands': 'red-teaming/unix-system/commands.md'
-      - 'Terminal': 'red-teaming/unix-system/terminal.md'
+  #   - 'Unix Basics':
+  #     - 'Commands': 'red-teaming/unix-system/commands.md'
+  #     - 'Terminal': 'red-teaming/unix-system/terminal.md'
     
-    - 'Active Directory':
-      - 'Enumeration': 'red-teaming/active-directory/enumeration.md'
-      - 'Authentication': 'red-teaming/active-directory/authentication.md'
-      - 'Lateral Movement': 'red-teaming/active-directory/lateral-movement.md'
-      - 'Persistent': 'red-teaming/active-directory/persistent.md'
+  - 'Active Directory':
+    - 'Table of contents': 'active-directory/index.md'
 
-    - 'Exploit Development':
-      - 'Buffer Overflow': 'red-teaming/exploit-dev/buffer-overflow/index.md'
-      - 'Metasploit Framework': 'red-teaming/exploit-dev/metasploit-framework/index.md'
-      - 'Nmap Scripting Engine': 'red-teaming/exploit-dev/nse-script/index.md'
+    - 'Enumeration': 'active-directory/enumeration.md'
+    - 'Authentication': 'active-directory/authentication.md'
+    - 'Lateral Movement': 'active-directory/lateral-movement.md'
+    - 'Persistent': 'active-directory/persistent.md'
 
-    - 'Malware development': 'red-teaming/malware-development/index.md'
+  - 'Cloud Pentest':
+    - 'Table of contents': 'cloud-pentest/index.md'
+
+  # - 'Blog':
+  #   - blog/index.md
+
+    # - 'Exploit Development':
+    #   - 'Buffer Overflow': 'red-teaming/exploit-dev/buffer-overflow/index.md'
+    #   - 'Metasploit Framework': 'red-teaming/exploit-dev/metasploit-framework/index.md'
+    #   - 'Nmap Scripting Engine': 'red-teaming/exploit-dev/nse-script/index.md'
+
+    # - 'Malware development': 'red-teaming/malware-development/index.md'
 
     # - 'Moble Application': 'red-teaming/mobile-application/index.md'
 
     # - 'Wireless & RFID': 'red-teaming/wireless-rfid/index.md'
 
-    - 'Social Engineering': 'red-teaming/social-engineering/index.md'
+    # - 'Social Engineering': 'red-teaming/social-engineering/index.md'
 
     # - 'Powershell Empire': 'red-teaming/powershell-empire/index.md'
 
-  - 'DevSecOps':
-    - 'Table of contents': 'devsecops/index.md'
+  # - 'DevSecOps':
+  #   - 'Table of contents': 'devsecops/index.md'
 
-    - 'Docker': 
-      - 'Docker Basics': 'devsecops/docker/docker-basics.md'
-      - 'Docker Hacking': 'devsecops/docker/docker-hacking.md'
+  #   - 'Docker': 
+  #     - 'Docker Basics': 'devsecops/docker/docker-basics.md'
+  #     - 'Docker Hacking': 'devsecops/docker/docker-hacking.md'
 
-    - 'CI/CD': 'devsecops/ci-cd/index.md'
+  #   - 'CI/CD': 'devsecops/ci-cd/index.md'
 
-    - 'SCA/OAST': 'devsecops/sca-oast/index.md'
+  #   - 'SCA/OAST': 'devsecops/sca-oast/index.md'
 
-    - 'SAST': 'devsecops/sast/index.md'
+  #   - 'SAST': 'devsecops/sast/index.md'
 
-    - 'DAST': 'devsecops/dast/index.md'
+  #   - 'DAST': 'devsecops/dast/index.md'
 
-    - 'Infrastructure': 'devsecops/iac/index.md'
+  #   - 'Infrastructure': 'devsecops/iac/index.md'
 
-    - 'Compliance': 'devsecops/cac/index.md'
+  #   - 'Compliance': 'devsecops/cac/index.md'
 
-  - 'Blue Teaming':
+  # - 'Blue Teaming':
 
-    - 'Blue Team Training': 'blue-teaming/index.md'
+  #   - 'Blue Team Training': 'blue-teaming/index.md'
 
-  - 'Walkthrough':
+  # - 'Walkthrough':
 
-    - 'HackTheBox': 'walkthrough/hackthebox.md'
-    - 'Proving Grounds': 'walkthrough/pg.md'
+  #   - 'HackTheBox': 'walkthrough/hackthebox.md'
+  #   - 'Proving Grounds': 'walkthrough/pg.md'
     #- 'TryHackMe': 'walkthrough/tryhackme.md'
     #- 'VulnHub': 'walkthrough/vulnhub.md'
 
@@ -112,10 +119,19 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    # - navigation.expand
+    - navigation.prune
+    - navigation.indexes
+    # - header.autohide
+    - toc.integrate
+    - navigation.top
   palette:
-    primary: 'black'
+    primary: black
     scheme: slate
+  logo: images/nika.jpg
+  favicon: images/circle.png
 
 markdown_extensions:
   - tables
@@ -135,12 +151,22 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+plugins:
+  - blog:
+      authors: false
+      # blog_toc: true
+  - search
+
 # Footer
 extra:
+  # generator: false
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/leecybersec
     - icon: fontawesome/brands/github
       link: https://github.com/Tusnj
+
+# extra_css:
+#   - stylesheets/extra.css
 
 copyright: Copyright &copy; 2020 - 2025 LeeCyberSec
