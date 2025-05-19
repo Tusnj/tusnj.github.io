@@ -24,4 +24,4 @@ hide:
     }
 </style>
 
-# Welcome back to Try Harder.
+# Welcome back! Every step forward counts — dig deep and try harder.
