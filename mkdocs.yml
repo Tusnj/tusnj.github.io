@@ -10,42 +10,42 @@ nav:
   - 'Network Pentest':
     - 'Table of contents': 'network-pentest/index.md'
     
-    - 'Scanning': 'network-pentest/scanning/index.md'
+    - 'Network Scanning': 'network-pentest/scanning/index.md'
 
     - 'Common Services':
-      - 'general': 'network-pentest/common-services/00000-general.md'
-      - '21 ftp': 'network-pentest/common-services/00021-ftp.md'
-      - '22 ssh': 'network-pentest/common-services/00022-ssh.md'
-      - '25 smtp': 'network-pentest/common-services/00025-smtp.md'
-      - '53 dns': 'network-pentest/common-services/00053-dns.md'
-      - '110 pop3': 'network-pentest/common-services/00110-pop3.md'
-      - '111 nfs': 'network-pentest/common-services/00111-nfs.md'
-      - '139,445 smb': 'network-pentest/common-services/00139-445-smb.md'
-      - '161,199 snmp': 'network-pentest/common-services/00161-199-snmp.md'
-      - '1443 mssql': 'network-pentest/common-services/01443-mssql.md'
-      - '3306 mysql': 'network-pentest/common-services/03306-mysql.md'
-      - '4505,4506 zmtp': 'network-pentest/common-services/04505-4506-zmtp.md'
-      - '5432 postgresql': 'network-pentest/common-services/05432-postgresql.md'
-      - '6379 redis ': 'network-pentest/common-services/06379-redis.md'
-      - '27017 mongodb': 'network-pentest/common-services/27017-mongodb.md'
+      - 'General Port Scan': 'network-pentest/common-services/00000-general.md'
+      - 'Port 21 ftp': 'network-pentest/common-services/00021-ftp.md'
+      - 'Port 22 ssh': 'network-pentest/common-services/00022-ssh.md'
+      - 'Port 25 smtp': 'network-pentest/common-services/00025-smtp.md'
+      - 'Port 53 dns': 'network-pentest/common-services/00053-dns.md'
+      - 'Port 110 pop3': 'network-pentest/common-services/00110-pop3.md'
+      - 'Port 111 nfs': 'network-pentest/common-services/00111-nfs.md'
+      - 'Port 139,445 smb': 'network-pentest/common-services/00139-445-smb.md'
+      - 'Port 161,199 snmp': 'network-pentest/common-services/00161-199-snmp.md'
+      - 'Port 1443 mssql': 'network-pentest/common-services/01443-mssql.md'
+      - 'Port 3306 mysql': 'network-pentest/common-services/03306-mysql.md'
+      - 'Port 4505,4506 zmtp': 'network-pentest/common-services/04505-4506-zmtp.md'
+      - 'Port 5432 postgresql': 'network-pentest/common-services/05432-postgresql.md'
+      - 'Port 6379 redis ': 'network-pentest/common-services/06379-redis.md'
+      - 'Port 27017 mongodb': 'network-pentest/common-services/27017-mongodb.md'
 
-    - 'Remote Exploitation':
-      - 'RCE Lin': 'network-pentest/remote-exploitation/Unix&Linux.md'
-      - 'RCE Win': 'network-pentest/remote-exploitation/windows.md'
+    - 'Remote Code Execution':
+      - 'Unix RCE': 'network-pentest/remote-exploitation/Unix&Linux.md'
+      - 'Windows RCE': 'network-pentest/remote-exploitation/windows.md'
 
     - 'File Transfer': 'network-pentest/file-transfer/index.md'
     - 'Password Attack': 'network-pentest/password-attack/index.md'
     - 'Redirec & Tunnel': 'network-pentest/port-redirection-tunneling/index.md'
 
     - 'Privilege Escalation':
-      - 'Lin PrivEscal': 'network-pentest/privilege-escalation/Unix&Linux.md'
-      - 'Win PrivEscal': 'network-pentest/privilege-escalation/Windows.md'
+      - 'Unix Privilege Escalation': 'network-pentest/privilege-escalation/Unix&Linux.md'
+      - 'Windows Privilege Escalation': 'network-pentest/privilege-escalation/Windows.md'
 
   - 'Web Application':
     - 'Table of contents': 'web-application/index.md'
 
-    - 'Enumeration': 'web-application/enumeration.md'
-    - 'Exploitation': 'web-application/exploitation.md'
+    - 'Web App Enumeration': 'web-application/enumeration.md'
+    - 'Web App Exploitation': 'web-application/exploitation.md'
 
   # - 'Red Teaming':
   #   - 'Table of contents': 'red-teaming/index.md'
@@ -58,10 +58,10 @@ nav:
   - 'Active Directory':
     - 'Table of contents': 'active-directory/index.md'
 
-    - 'Enumeration': 'active-directory/enumeration.md'
-    - 'Authentication': 'active-directory/authentication.md'
-    - 'Lateral Movement': 'active-directory/lateral-movement.md'
-    - 'Persistent': 'active-directory/persistent.md'
+    - 'AD Enumeration': 'active-directory/enumeration.md'
+    - 'AD Authentication': 'active-directory/authentication.md'
+    - 'AD Lateral Movement': 'active-directory/lateral-movement.md'
+    - 'AD Persistent': 'active-directory/persistent.md'
 
   - 'Cloud Pentest':
     - 'Table of contents': 'cloud-pentest/index.md'
