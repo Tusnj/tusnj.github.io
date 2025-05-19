@@ -166,7 +166,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Tusnj
 
-# extra_css:
-#   - stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
 
 copyright: Copyright &copy; 2020 - 2025 LeeCyberSec
